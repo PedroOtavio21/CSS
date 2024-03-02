@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #ad5ce4;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #591288;
+    border: transparent 1px solid;
+    padding: 2rem;
+}
+
+span {
+    display: block;
+    text-transform: uppercase;
+    color: #333;
+}
+
+header a{
+    color: #331349;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+section {
+    margin: 2rem 2.3rem;
+}
+
+.back-1, .back-2,
+.back-3 {
+    border: 2px solid #333;
+    border-bottom-right-radius: 2rem;
+    height: 16rem;
+    width: 45%;
+    align-items: center;
+    margin: 1.8rem 2rem;
+    padding: 0.2rem;
+}
+
+.back-1 {
+    background-color: rgb(255, 242, 225);
+    color: #555;
+}
+
+.back-2 {
+    background-image: url(https://psblog.com.br/wp-content/uploads/2023/12/Red-Dead-Redemption-2-disponivel-a-preco-recorde-no-PC.webp);
+    background-size: cover;
+    color: #536063;
+}
+
+.back-3 {
+    background-image: linear-gradient(45deg, #4b3550, #a10736);
+    border-style: solid;
+    border-color: #fff;
+    color: #eaeaea;
+}
