@@ -2,3 +2,12 @@ p {
     color: green;
     font-size: 22px;
 }
+
+p {
+    color: red;
+}
+
+/* A prioridade será dada para este último bloco de estilização! */
+p {
+    color: blueviolet;
+} 
