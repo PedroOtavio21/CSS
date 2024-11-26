@@ -1,9 +1,11 @@
 # Exercício 1 - Primeira página estilidada
 Crie a página abaixo utilizando as propriedades de background e border:
 
+<img src="https://assets-v2.circle.so/bwabuzjcrj32lzuop1boom2pmbdy">
+
 ## Dicas
 Link da imagem utilizada:
-<img href="https://www.viagenspossiveis.com.br/wp-content/uploads/2013/02/C360_2012-11-19-17-59-02.jpg?_gl=1*1qj459a*_ga*MTMzNTYzODYxMy4xNzA2MDIxODE5*_ga_37GXT4VGQK*MTcyOTAwMjM5OC45NDQuMS4xNzI5MDA2MzI4LjAuMC4w*_fplc*VzJ0OUolMkZsMnZoaGN4QW5nb3RIWTk0cDlySSUyQnlESU4lMkZWZzJESmN4S0JKJTJGUDdaY3QxQ0U5Z2R1UDBjcnVta0dwMXZRdG16bnRsQm1oeTRlMXRlNVdUc0NmWWk2RGdmb1daMXduOHVIY2tVcSUyQkZKNjRpVmFVSmpnMElrclpwQSUzRCUzRA..">
+<img src="https://www.viagenspossiveis.com.br/wp-content/uploads/2013/02/C360_2012-11-19-17-59-02.jpg?_gl=1*1qj459a*_ga*MTMzNTYzODYxMy4xNzA2MDIxODE5*_ga_37GXT4VGQK*MTcyOTAwMjM5OC45NDQuMS4xNzI5MDA2MzI4LjAuMC4w*_fplc*VzJ0OUolMkZsMnZoaGN4QW5nb3RIWTk0cDlySSUyQnlESU4lMkZWZzJESmN4S0JKJTJGUDdaY3QxQ0U5Z2R1UDBjcnVta0dwMXZRdG16bnRsQm1oeTRlMXRlNVdUc0NmWWk2RGdmb1daMXduOHVIY2tVcSUyQkZKNjRpVmFVSmpnMElrclpwQSUzRCUzRA..">
 
 Cores utilizadas:
 - #248030
