@@ -78,9 +78,12 @@ header {
 }
 
 /* menu */
+.menu {
+    padding: 2rem;
+}
+
 .menu > h2 {
-    font-size: 2rem;
-    padding-top: 2rem;
+    font-size: 1.8rem;
     padding-bottom: var(--pd-pequeno);
 }
 
@@ -108,4 +111,27 @@ header {
 .menu-list-item p {
     padding-left: var(--pd-pequeno);
     padding-bottom: var(--pd-pequeno);
+    font-size: .85rem;
+    line-height: 1.5;
 }
+
+/* about */
+.about {
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7)),
+        url(./images/pexels-eneida-nieves-905847.jpg);
+    background-size: cover;
+    background-position: center;  
+    padding: 2rem;
+    color: var(--cor-cinza); 
+}
+
+.about h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-bottom: var(--pd-medio);
+}
+
+.about p {
+    font-size: .85rem;
+}
+
