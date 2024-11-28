@@ -51,7 +51,7 @@ header {
 .hero {
     background: url(./images/pexels-narda-yescas-1566837.jpg);
     background-size: cover;
-    height: 93vh;
+    height: 100vh;
 }
 
 .hero h1 {
@@ -78,3 +78,34 @@ header {
 }
 
 /* menu */
+.menu > h2 {
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: var(--pd-pequeno);
+}
+
+.menu-list-item {
+    display: inline-block;
+    width: 25%;
+    margin: var(--pd-pequeno);
+    border-radius: 5px;
+    background-color: var(--cor-cinza);
+    text-align: left;
+}
+
+.menu-list-item img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.menu-list-item h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    padding: .8rem var(--pd-pequeno);
+}
+
+.menu-list-item p {
+    padding-left: var(--pd-pequeno);
+    padding-bottom: var(--pd-pequeno);
+}
