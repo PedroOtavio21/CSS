@@ -135,3 +135,36 @@ header {
     font-size: .85rem;
 }
 
+/* contact */
+.contact {
+    padding: 2rem;
+}
+
+.contact > h2,
+.contact > p {
+    padding-bottom: var(--pd-pequeno);
+}
+
+.contact  p {
+    font-size: .85rem;
+    line-height: 1.5;
+}
+
+address > .address-content {
+    display: inline-block;
+    text-align: left;
+    margin-left: var(--pd-medio);
+    margin-bottom: 2.5rem;
+}
+
+.address-content p > a {
+    color: var(--cor-botao);
+}
+
+/* footer */
+footer {
+    background-color: var(--cor-fundo);
+    color: var(--cor-botao);
+    margin-top: 1rem;
+    padding: var(--pd-medio);
+}
