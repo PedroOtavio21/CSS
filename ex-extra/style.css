@@ -1,0 +1,80 @@
+/* Variáveis */
+:root {
+    --cor-fundo: #232323;
+    --cor-cinza: #eaeaea;
+    --cor-branca: #fff;
+    --cor-botao: #ffa403;
+
+    --pd-pequeno: 1.25rem;
+    --pd-medio: 1.55rem;
+
+    --fonte-texto: 'Montserrat', sans-serif;
+}
+
+/* Padronização de documento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-texto);
+}
+
+li {
+    list-style: none;
+}
+
+body{
+    max-width: 100%;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: var(--cor-fundo);
+    padding: var(--pd-pequeno);
+}
+
+.nav-list > .nav-list-item{
+    display: inline-block;
+}
+
+.nav-list > .nav-list-item > a{
+    margin-left: 3rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: .88rem;
+    color: var(--cor-cinza);
+}
+
+/* hero */
+.hero {
+    background: url(./images/pexels-narda-yescas-1566837.jpg);
+    background-size: cover;
+    height: 93vh;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--cor-cinza);
+    padding-top: 6.5rem;
+}
+
+.hero p {
+    color: var(--cor-cinza);
+    padding-top: var(--pd-medio);
+    padding-bottom: var(--pd-medio);
+}
+
+.cta-button {
+    background-color: var(--cor-botao);
+    padding: .7rem 1rem;
+    color: var(--cor-fundo);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: .85rem;
+    border-radius: 8px;
+}
+
+/* menu */
